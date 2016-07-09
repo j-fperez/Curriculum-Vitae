@@ -18,10 +18,10 @@ body {
 
 .navbar {
 	position: fixed;
-	background-color: 247,247,247,0.9;
+	background-color: 247,247,247;
 	top: 0px;
 	width: 100%;
-	opacity: 0,9;
+	opacity: 0.9;
 }
 
 .navbar .navbar-list {
@@ -45,7 +45,8 @@ body {
 	display: inline-block;
 	text-decoration: none;
 	padding: 20px;
-	color: rgba(0, 255, 255, 0.92);
+	color: black;
+	font-weight: bold;
 	transition: all 0.5s linear;
 }
 
@@ -84,3 +85,26 @@ body {
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 26px;
 }
+
+.about-me .foto-josefco{
+	max-width: 50%;
+	float: right;
+	text-align: center;
+}
+
+.about-me .josefco-info{
+	max-width: 50%;
+	margin-left: 50px;
+	float: left;
+}
+
+#mi-nombre::first-letter {
+	font-size: 400%;
+	font-weight: bold;
+} 
+
+.section-container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
