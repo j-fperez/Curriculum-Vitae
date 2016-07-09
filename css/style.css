@@ -18,15 +18,16 @@ body {
 
 .navbar {
 	position: fixed;
-	background-color: #F7F7F7;
+	background-color: 247,247,247,0.9;
 	top: 0px;
 	width: 100%;
+	opacity: 0,9;
 }
 
 .navbar .navbar-list {
 	list-style-type: none;
 	margin: 0px;
-	float: right;
+	float: left;
 	font-size: 0;
 }
 
@@ -35,16 +36,16 @@ body {
 	font-size: 16px;
 }
 
-.navbar .navbar-list .navbar-item.active {
-	color: #F7F7F7;
+/*.navbar .navbar-list .navbar-item.active {
+	color: aqua;
 	background-color: #A4A4A4;
-}
+}*/
 
 .navbar .navbar-list .navbar-item a {
 	display: inline-block;
 	text-decoration: none;
 	padding: 20px;
-	color: rgba(0, 0, 0, 0.92);
+	color: rgba(0, 255, 255, 0.92);
 	transition: all 0.5s linear;
 }
 
@@ -56,7 +57,7 @@ body {
 .portada {
 	position: absolute;
 	left: 0;
-	top: 75%;
+	top: 80%;
 	width: 100%;
 	color: springgreen;
 	font-family: 'Droid Sans', sans-serif;
@@ -65,21 +66,21 @@ body {
 }
 
 .portada-img {
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
-	background-image: url(../images/IMG_1203-2.jpg);
+	background-image: url(../images/HTML5-CSS3-Javascript.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
-.portada-cite {
+.portada-frase {
 	position: absolute;
 	left: 0;
-	top: 85%;
+	top: 90%;
 	color: springgreen;
 	width: 100%;
 	text-align: center;
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 30px;
+	font-size: 26px;
 }
