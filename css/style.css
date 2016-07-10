@@ -103,8 +103,37 @@ body {
 	font-weight: bold;
 } 
 
+.row-flex {
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+thead > tr {
+	background-color: #f5f5f5;
+}
+
+th {
+	height: 50px;
+}
+
+
+th, td {
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+
+tbody > tr:hover {
+	background-color: #dedddd;
+}
+
 .section-container {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-
